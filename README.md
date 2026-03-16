@@ -18,7 +18,7 @@ You can refer to the environment preparation process of [BasicSR](https://github
 # Downloading Our Weights
 
 1. **Download Pretrained Weights:**
-   - Navigate to [this link](https://drive.google.com/file/d/1wz3YGhhOd2dV6C6_1XBKmsEwxsowgomV/view?usp=drive_link) to download our weights. 
+   - Navigate to [this link](https://drive.google.com/file/d/1MNiD5IMLxIqpRseO1vJUUyZ_2Sj2oX4f/view?usp=sharing) to download our weights. 
 
 2. **Save to `experiments` Directory:**
    - Once downloaded, place the weights into the `experiments` directory.
@@ -30,7 +30,7 @@ To test our model, please open the `options/NTIRE2026/test_se.yml` file and upda
 ```bash
 python basicsr/test.py -opt options/NTIRE2026/test_se.yml
 ```
-Then, please use rename2.py and png2jpg_ntire.py to rename the images and change them to jpg.
+Then, please use rename2.py to rename the images.
 
 # Factsheet and results on testset
 
