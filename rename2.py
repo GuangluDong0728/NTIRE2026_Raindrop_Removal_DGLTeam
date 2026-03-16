@@ -23,12 +23,12 @@ def simple_rename_x4_suffix(folder_path):
     
     for filename in files:
         # 检查文件是否包含x4
-        if '_ALLINONE_TestLQ_FollowMedianTSE_1e_5_norotflip_p256_80000_meanWin16' in filename:
+        if '_RainDrop_Testset' in filename:
             # 构建完整的文件路径
             old_path = os.path.join(folder_path, filename)
             
             # 生成新文件名（去掉x4）
-            new_filename = filename.replace('_ALLINONE_TestLQ_FollowMedianTSE_1e_5_norotflip_p256_80000_meanWin16', '')
+            new_filename = filename.replace('_RainDrop_Testset', '')
             new_path = os.path.join(folder_path, new_filename)
             
             # 检查新文件名是否已存在
