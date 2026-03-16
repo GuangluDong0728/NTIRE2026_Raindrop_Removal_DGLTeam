@@ -38,7 +38,7 @@ Then, please use rename2.py to rename the images.
    - Navigate to [this link](https://drive.google.com/file/d/1pqLWFqFFNqlCINLmM3STV9C_Tx9gz1p7/view?usp=sharing) to download our Factsheet.
      
 2. **Download results on testset:**
-   - Navigate to [this link](https://drive.google.com/file/d/1vkrpr2skgrQImYA6Nv9oDqJ5bQ9iviFI/view?usp=sharing) to download our results on testset. 
+   - Navigate to [this link](https://drive.google.com/file/d/1NqgLXRCjmnEmCfEm9A3bVHG78hdib-3g/view?usp=sharing) to download our results on testset. 
 
 # Acknowledgements
 
