@@ -1,4 +1,4 @@
-# [LoViF2026] - [The First Challenge on Real-World All-in-One Image Restoration] - [DGLTeam]
+# [NTIRE2026] - [The Second Challenge on Day and Night Raindrop Removal for Dual-Focused Images] - [DGLTeam]
 
 # Environment Prepare
 You can refer to the environment preparation process of [BasicSR](https://github.com/XPixelGroup/BasicSR), which mainly includes the following two steps:
