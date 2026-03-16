@@ -30,12 +30,13 @@ To test our model, please open the `options/NTIRE2026/test_se_raindrop.yml` file
 ```bash
 python basicsr/test.py -opt options/NTIRE2026/test_se.yml
 ```
-Then, please use rename2.py to rename the images, and use post_scene_fuse_blend.py to get our final outputs.
+Then, please use rename2.py to rename the images.
+Finally please use post_scene_fuse_blend.py and update the paths to get our final outputs.
 
 # Factsheet and results on testset
 
 1. **Download Factsheet:**
-   - Navigate to [this link](https://drive.google.com/file/d/1pqLWFqFFNqlCINLmM3STV9C_Tx9gz1p7/view?usp=sharing) to download our Factsheet.
+   - Navigate to [this link](https://drive.google.com/file/d/1xM5dwMoa56bfaiW_5pk5M30-V-PYFpe1/view?usp=drive_link) to download our Factsheet.
      
 2. **Download results on testset:**
    - Navigate to [this link](https://drive.google.com/file/d/1NqgLXRCjmnEmCfEm9A3bVHG78hdib-3g/view?usp=sharing) to download our results on testset. 
