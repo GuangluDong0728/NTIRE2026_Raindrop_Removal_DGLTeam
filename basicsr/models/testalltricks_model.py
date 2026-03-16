@@ -313,8 +313,8 @@ class TestAllTricksModel(BaseModel):
                 inverse transform back
             Aggregate (mean by default, can switch to median/trimmed-mean if you want)
         """
-        patch = 256
-        overlap = 16
+        patch = 128
+        overlap = 32
         pad_mode = "reflect"
         use_hann = False
 
