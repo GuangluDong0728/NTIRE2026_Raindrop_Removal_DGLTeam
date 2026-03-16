@@ -28,7 +28,7 @@ You can refer to the environment preparation process of [BasicSR](https://github
 To test our model, please open the `options/NTIRE2026/test_se_raindrop.yml` file and update the paths, and just run the command:
 
 ```bash
-python basicsr/test.py -opt options/NTIRE2026/test_se.yml
+python basicsr/test.py -opt options/NTIRE2026/test_se_raindrop.yml
 ```
 Then, please use rename2.py to rename the images.
 Finally please use post_scene_fuse_blend.py and update the paths to get our final outputs.
