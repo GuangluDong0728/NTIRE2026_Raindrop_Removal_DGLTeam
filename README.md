@@ -25,12 +25,12 @@ You can refer to the environment preparation process of [BasicSR](https://github
      
 # Testing
 
-To test our model, please open the `options/NTIRE2026/test_se.yml` file and update the paths, and just run the command:
+To test our model, please open the `options/NTIRE2026/test_se_raindrop.yml` file and update the paths, and just run the command:
 
 ```bash
 python basicsr/test.py -opt options/NTIRE2026/test_se.yml
 ```
-Then, please use rename2.py to rename the images.
+Then, please use rename2.py to rename the images, and use post_scene_fuse_blend.py to get our final outputs.
 
 # Factsheet and results on testset
 
